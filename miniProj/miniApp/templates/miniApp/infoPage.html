@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>Back to the Entries <a href="{% url 'index' %}">Here</a></p>
+{% for eachEl in allTime %}
+
+ Name : {{ eachEl.teacher_name }}<br>
+School : {{ eachEl.school }}<br>
+Subject: {{ eachEl.subject }}<br>
+Total of Hours: {{ eachEl.hours }}<br>
+Date of work: {{ eachEl.date_of_work }}<br>
+Date of entry: {{ eachEl.date_of_entry }}
+{% if not forloop.last %}
+<hr>
+{% endif %}
+{% endfor %}
+</body>
+</html>
