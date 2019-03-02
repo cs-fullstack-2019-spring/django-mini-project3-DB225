@@ -1,3 +1,6 @@
+### POINTS: .5
+### KEY: Not sure what happened here D. I know u can do better but just almost nothing here. Check into link generation with url helper :-(
+
 # Mini-Project Django
 
 THIS IS A SOLO PROJECT.
